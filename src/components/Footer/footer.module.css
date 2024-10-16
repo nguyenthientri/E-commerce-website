@@ -1,0 +1,70 @@
+.input_footer {
+  padding: 15px 20px;
+  width: 100%;
+  outline: 1px solid transparent;
+  border-radius: 5px;
+  background: #f0efef;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn_footer {
+  position: absolute;
+  padding: 10px 20px;
+  top: 6px;
+  font-size: 13px;
+  right: 5px;
+  background: #e11d48;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+.input_footer:focus {
+  outline: 1px solid #0000ff;
+}
+.input_footer:focus ~ .btn_footer {
+  color: white;
+  background: #684df4;
+}
+.contact_icon {
+  width: 20px;
+  height: 20px;
+}
+.list_contact {
+  border: 1.5px solid transparent;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 3px;
+  transition: all 0.4s ease-in-out;
+}
+.list_contact:first-child:hover {
+  border: 1.5px solid blue;
+}
+.list_contact:nth-child(2):hover {
+  border: 1.5px solid red;
+}
+.list_contact:nth-child(3):hover {
+  border: 1.5px solid black;
+}
+.list_contact:nth-child(4):hover {
+  border: 1.5px solid aqua;
+}
+.list_contact svg {
+  transition: all 0.2s ease-in-out;
+}
+.list_contact:hover svg {
+  transform: scale(1.2);
+}
+.list_contact:first-child svg {
+  fill: blue;
+}
+.list_contact:nth-child(2) svg {
+  fill: red;
+}
+.list_contact:nth-child(3) svg {
+  fill: black;
+}
+.list_contact:nth-child(4) svg {
+  fill: aqua;
+}

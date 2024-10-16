@@ -1,0 +1,10 @@
+.body_register {
+  height: 100vh;
+  background: url('./../../../src/assets/img/pexels-photo-1072179.jpeg') no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.body_register form {
+  backdrop-filter: blur(120px);
+}

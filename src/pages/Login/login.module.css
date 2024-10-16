@@ -1,0 +1,10 @@
+.body_login {
+  height: 100vh;
+  background: url('./../../../src/assets/img/pexels-photo-1072179.jpeg') no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.body_login form {
+  backdrop-filter: blur(120px);
+}
